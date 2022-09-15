@@ -1,0 +1,61 @@
+{
+  "name": "asset-builder",
+  "version": "1.16.1",
+  "description": "Asset Builder",
+  "engines": {
+    "node": "14.19.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "node index.js",
+    "build": "exit 0",
+    "format": "st-scripts format",
+    "lint": "st-scripts lint",
+    "validate": "st-scripts validate",
+    "scripts:watch": "st-scripts watch",
+    "changeset": "changeset",
+    "release": "st-changeset release --skipPublish"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.100.0",
+    "@socialtables/floor-component": "4.3.5",
+    "@socialtables/logger": "^3.0.5",
+    "@socialtables/sdk.js": "^9.1.0",
+    "bluebird": "^3.7.2",
+    "checkenv": "^1.2.1",
+    "dd-trace": "^2.9.1",
+    "dotenv": "^1.2.0",
+    "elementtree": "^0.1.6",
+    "gm": "^1.20.0",
+    "inkscape": "0.0.5",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^7.4.0",
+    "mkdirp": "^1.0.4",
+    "mz": "^2.7.0",
+    "object-assign": "^4.0.1",
+    "optipng": "^2.1.0",
+    "path": "^0.12.7",
+    "pngquant": "^3.0.0",
+    "pngquant-bin": "^5.0.2",
+    "react": "^0.13.3",
+    "rimraf": "^2.4.4",
+    "superagent": "^7.1.6",
+    "svg2png": "^4.1.1",
+    "uuid": "^2.0.1"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.24.1",
+    "@socialtables/changesets": "^1.1.0",
+    "@socialtables/st-scripts": "^3.0.1",
+    "pino-pretty": "^8.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "st-scripts pre-commit --notest"
+    }
+  }
+}
