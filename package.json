@@ -30,7 +30,7 @@
     "dotenv": "^1.2.0",
     "elementtree": "^0.1.6",
     "gm": "^1.20.0",
-    "inkscape": "0.0.5",
+    "inkscape": "2.1.0",
     "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0",
     "koa-router": "^7.4.0",
