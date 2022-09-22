@@ -37,7 +37,7 @@
     "mkdirp": "^1.0.4",
     "mz": "^2.7.0",
     "object-assign": "^4.0.1",
-    "optipng": "^2.1.0",
+    "optipng": "^4.0.0",
     "path": "^0.12.7",
     "pngquant": "^3.0.0",
     "pngquant-bin": "^5.0.2",
