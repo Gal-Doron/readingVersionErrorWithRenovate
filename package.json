@@ -43,7 +43,7 @@
     "pngquant-bin": "^5.0.2",
     "react": "^0.13.3",
     "rimraf": "^2.4.4",
-    "superagent": "^7.1.6",
+    "superagent": "^8.0.0",
     "svg2png": "^4.1.1",
     "uuid": "^2.0.1"
   },
