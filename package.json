@@ -33,7 +33,7 @@
     "inkscape": "0.0.5",
     "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0",
-    "koa-router": "^7.4.0",
+    "koa-router": "^12.0.0",
     "mkdirp": "^1.0.4",
     "mz": "^2.7.0",
     "object-assign": "^4.0.1",
