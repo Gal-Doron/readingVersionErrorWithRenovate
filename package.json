@@ -3,7 +3,7 @@
   "version": "1.16.1",
   "description": "Asset Builder",
   "engines": {
-    "node": "14.19.1"
+    "node": "18.18.2"
   },
   "main": "index.js",
   "scripts": {
